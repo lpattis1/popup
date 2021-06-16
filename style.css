@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    margin: 2rem auto;
+    background-color: crimson;
+    color: white;
+    border: 0;
+    padding: .6rem 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(180, 16, 49);
+    transition: 0.3s ease-in-out;
+}
+
+.popup-wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.336);
+    display: none;
+}
+
+.popup {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+    max-width: 30rem;
+    margin: 10% auto;
+    padding: 4rem;
+    background-color: white;
+    position: relative;
+}
+
+p {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.popup a {
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    padding: .6rem 1rem;
+}
+
+.popup-close {
+    position: absolute;
+    top: .5rem;
+    right: .8rem;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+.open {
+    display: block;
+}
